@@ -50,3 +50,27 @@ const myFunction=function(){
 
 // Array, Objects, Functions
 //  javascript is a dynamically typed language
+
+// +++++++++++++++++++++++++++++++++++++++++++
+
+// stack(Primitive)original value ki copy,
+//  Heap(Non Primitive) original value ka reference
+let myyoutubechannel="hiteshchoudharydotcom"
+
+let anothername=myyoutubechannel
+anothername="chaiorcode"
+
+console.log(myyoutubechannel);
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+let userTwo=userOne
+
+userTwo.email="hitesh@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
